@@ -12,6 +12,9 @@ long unsigned int timer, micro_timer;
 void setup() {
   // put your setup code here, to run once:
   Wire.begin();
+  //delay(5000);
+  //setDS3231time(0, 38, 21, 5,18,12,20);
+
   Serial.begin(9600);
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
